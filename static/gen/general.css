@@ -92,35 +92,58 @@
               .list .rank-tile .tile-subtitle {
                 font-size: 14pt; }
 
-  ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px; }
+  .main {
+    width: 80%;
+    margin: auto; }
 
-    ::-webkit-scrollbar-button {
-      width: 0px;
-      height: 0px; }
-
-      ::-webkit-scrollbar-thumb {
-        background: #e1e1e1;
-        border: 0px none #ffffff;
-        border-radius: 50px; }
-
-        ::-webkit-scrollbar-thumb:hover {
-          background: #ffffff; }
-
-          ::-webkit-scrollbar-thumb:active {
-            background: #000000; }
-
-            ::-webkit-scrollbar-track {
-              background: #666666;
-              border: 0px none #ffffff;
-              border-radius: 50px; }
-
-              ::-webkit-scrollbar-track:hover {
-                background: #666666; }
-
-                ::-webkit-scrollbar-track:active {
-                  background: #333333; }
-
-                  ::-webkit-scrollbar-corner {
-                    background: transparent; }
+    .profile-info .badges {
+      height: 300px;
+      background-color: rgba(87, 87, 87, 0.295); }
+      .profile-info .submissions {
+        height: 500px;
+        background-color: rgba(87, 87, 87, 0.295); }
+        .profile-info p {
+          padding: 0;
+          margin: 0; }
+          .profile-info .flex-row {
+            margin: 20px auto; }
+            .profile-info .rank-image {
+              width: 200px;
+              height: 200px;
+              background-color: rgba(87, 87, 87, 0.295); }
+              .profile-info .user-info .user-info-item {
+                margin: 0 20px; }
+                .profile-info .user-info .user-info-item.user-name {
+                  font-size: 40pt;
+                  font-weight: bold; }
+                  .profile-info .user-info .user-info-item.user-rank {
+                    font-size: 20pt;
+                    font-weight: bold; }
+                    .profile-info .user-info .user-info-item.user-level {
+                      font-size: 12pt;
+                      width: fit-content;
+                      padding: 0 5px; }
+    .profile-info ::-webkit-scrollbar {
+      width: 12px;
+      height: 12px; }
+      .profile-info ::-webkit-scrollbar-button {
+        width: 0px;
+        height: 0px; }
+        .profile-info ::-webkit-scrollbar-thumb {
+          background: #e1e1e1;
+          border: 0px none #ffffff;
+          border-radius: 50px; }
+          .profile-info ::-webkit-scrollbar-thumb:hover {
+            background: #ffffff; }
+            .profile-info ::-webkit-scrollbar-thumb:active {
+              background: #000000; }
+              .profile-info ::-webkit-scrollbar-track {
+                background: #666666;
+                border: 0px none #ffffff;
+                border-radius: 50px; }
+                .profile-info ::-webkit-scrollbar-track:hover {
+                  background: #666666; }
+                  .profile-info ::-webkit-scrollbar-track:active {
+                    background: #333333; }
+                    .profile-info ::-webkit-scrollbar-corner {
+                      background: transparent; }

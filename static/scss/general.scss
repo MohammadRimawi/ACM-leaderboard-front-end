@@ -147,6 +147,65 @@ h1 {
     }
 }
 
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+
+.profile-info{
+    .badges{
+        height: 300px;
+        background-color: rgba(87, 87, 87, 0.295);
+    }
+
+    .submissions{
+        height: 500px;
+        background-color: rgba(87, 87, 87, 0.295); 
+    }
+    p{
+        padding: 0;
+        margin: 0;
+    }
+    .flex-row{
+        margin: 20px auto;
+    }
+    .rank-image{
+        width: 200px;
+        height: 200px;
+        background-color: rgba(87, 87, 87, 0.295);
+    }
+    .user-info{
+
+        .user-info-item{
+            margin: 0 20px;
+            // padding: 0 20px;
+            // div:first-child{  
+            //     min-width: 100px;
+            //     width: 100%;
+            //     max-width: 20%;
+            //     // }
+            // }
+
+            &.user-name{
+                font-size: 40pt;
+                font-weight: bold;
+            }
+            &.user-rank{
+                font-size: 20pt;
+                font-weight: bold;
+            }
+            &.user-level{
+                font-size: 12pt;
+                // color: black;
+                // background-color: white;
+                width: fit-content;
+                padding: 0 5px;
+            }
+        }
+
+
+}
 
 ::-webkit-scrollbar {
     width: 12px;
